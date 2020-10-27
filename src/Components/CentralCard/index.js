@@ -34,20 +34,29 @@ function CentralCard() {
 
       <Row>
         <Col xs="12">
-          <div className="address-wrapper">
-            <span>
-              <img src={Arrow} />
-              PICKUP
-              <p>123 Main Street, Unit 21New York, 10001</p>
-            </span>
+          <div className="address-wrapper position-relative">
+            <img alt="img" src={Line} className="travel-line" />
 
-            <span>
-              DROPOFF
-              <div>
-                <img src={Point} />
-                <p>476 McMaster Way, Pitsburg, PA 15222</p>
+            <div className="d-flex align-items-center">
+              <img alt="img" src={Arrow} />
+              <div className="d-flex flex-column ml-2">
+                <span>PICKUP</span>
+                <p className="text-white" id="text">
+                  123 Main Street, Unit 21New York, 10001
+                </p>
               </div>
-            </span>
+            </div>
+
+            <div className="d-flex align-items-center">
+              <img alt="img" src={Point} />
+
+              <div className="d-flex flex-column ml-2">
+                <span>DROPOFF</span>
+                <p className="text-white" id="text">
+                  476 McMaster Way, Pitsburg, PA 15222
+                </p>
+              </div>
+            </div>
           </div>
         </Col>
       </Row>
@@ -55,7 +64,7 @@ function CentralCard() {
       <Row>
         <Col xs="12">
           <div className="class-text">
-            <span className="text-white">Hazardouz - Class 1 (2) 48Unit</span>
+            <p className="text-white">Hazardouz - Class 1 (2) 48Unit</p>
           </div>
         </Col>
       </Row>
@@ -63,7 +72,7 @@ function CentralCard() {
       <Row>
         <Col xs="12">
           <div className="profile-data">
-            <img src={Avatar} />
+            <img alt="img" src={Avatar} />
             <p>
               Marcus Klaus <br />
               <span>ID 098ytg67</span>
@@ -87,7 +96,7 @@ function CentralCard() {
       </Row>
 
       <div className="indicator">
-        <img src={Indicator} />
+        <img alt="img" src={Indicator} />
       </div>
     </Container>
   );

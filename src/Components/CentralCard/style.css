@@ -1,23 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100&display=swap");
 .container-wrapper {
-  background-color: black;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  margin-top: 100px;
+  background-color: #040b11;
+  margin-top: 60px;
   padding: 20px;
+  height: 520px;
+  width: 374px;
+  border-radius: 49px 49px 0;
 }
 
 .container-wrapper .date-wrapper {
   padding: 30px;
+  margin-bottom: 22px;
 }
 
 .container-wrapper .date-wrapper #newOrder {
+  height: 26px;
+  width: 99px;
   color: white;
-  font-size: 23px;
+  font-size: 18px;
+  font-family: Commissioner;
+  font-weight: 900;
+  line-height: 26px;
 }
 
 .container-wrapper .date-wrapper #date {
-  color: white;
+  height: 26px;
+  width: 176px;
+  color: #c1c7d0;
+  font-family: Commissioner;
   font-size: 14px;
+  letter-spacing: 0;
+  line-height: 26px;
 }
 
 .container-wrapper .inf-wrapper {
@@ -38,18 +51,26 @@
           flex-direction: column;
 }
 
-.container-wrapper .address-wrapper span {
-  font-size: 12px;
-  color: #585757;
+.container-wrapper .address-wrapper #text {
+  color: white;
+  font-size: 10px;
 }
 
-.container-wrapper .address-wrapper span p {
-  color: white;
-  margin-left: 20px;
+.container-wrapper .address-wrapper span {
+  font-size: 10px;
+  color: #585757;
+  margin-top: 10px;
+}
+
+.container-wrapper .address-wrapper .travel-line {
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  width: 2px;
 }
 
 .container-wrapper .class-text {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   margin-top: 15px;
@@ -58,6 +79,8 @@
 
 .container-wrapper .class-text span {
   margin-bottom: 20px;
+  margin-right: 90px;
+  color: white;
 }
 
 .container-wrapper .profile-data {
@@ -91,6 +114,10 @@
   color: white;
   font-weight: bold;
   margin-top: 20px;
+}
+
+.container-wrapper .points-wrapper p {
+  text-align: center;
 }
 
 .container-wrapper .points-wrapper .btn-wrapper {

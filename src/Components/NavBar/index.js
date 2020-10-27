@@ -10,9 +10,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Container,
-  Row,
-  Col,
 } from "reactstrap";
 
 const Navigation = (props) => {
@@ -33,7 +30,7 @@ const Navigation = (props) => {
         </Collapse>
 
         <div className="avatar-wrapper">
-          <img className="avatar" src={Avatar} />
+          <img alt="img" className="avatar" src={Avatar} />
           <div className="user-data">
             <p className="cash m-0 text-white">
               <span>$</span>230.90
@@ -42,7 +39,7 @@ const Navigation = (props) => {
           </div>
         </div>
 
-        <img src={BellIcon} />
+        <img alt="img" src={BellIcon} />
       </Navbar>
     </div>
   );

@@ -1,11 +1,12 @@
 .toggler-wrapper {
-  width: 120px;
-  height: 50px;
+  width: 95px;
+  height: 48px;
   background-color: #333;
   border-radius: 50px;
   -webkit-box-shadow: 3px 3px 3px #222 inset -3px -3px 3px #555 inset;
           box-shadow: 3px 3px 3px #222 inset -3px -3px 3px #555 inset;
   position: relative;
+  margin-top: 40px;
 }
 
 .toggler-wrapper .toggler-indicator {
@@ -25,11 +26,15 @@
 
 .toggler-wrapper:after {
   content: "ONLINE";
-  font-size: 12px;
+  height: 9px;
+  width: 33px;
+  font-size: 6.5px;
+  font-weight: 900;
+  line-height: 9px;
   color: white;
   position: absolute;
-  right: 10px;
-  top: 15px;
+  right: 5px;
+  top: 19px;
   display: block;
 }
 

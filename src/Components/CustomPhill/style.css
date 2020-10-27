@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100&display=swap");
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,16 +10,30 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 22px;
+  width: 106px;
+  border: 1px solid #1c232a;
+  border-radius: 8px;
+  background-color: #10161c;
+  -webkit-box-shadow: inset 2px 2px 4px 0 #222222;
+          box-shadow: inset 2px 2px 4px 0 #222222;
 }
 
 .wrapper div {
   text-align: center;
 }
 
-.wrapper p {
-  color: #636161;
-  font-size: 12px;
+.wrapper .title {
+  height: 19px;
+  width: 67px;
+  color: #797b7c;
+  font-family: Commissioner;
+  font-size: 10px;
+  font-weight: 500;
   text-align: center;
+  margin-top: -33px;
 }
 
 .wrapper img {

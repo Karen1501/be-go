@@ -4,9 +4,9 @@ import "./style.css";
 function CustomPhill(props) {
   return (
     <div className=" wrapper">
-      <p>{props.title}</p>
-      <div className="text-white">
-        <img src={props.img}></img>
+      <p className="title">{props.title}</p>
+      <div className="text-white img-wrapper">
+        <img alt="img" src={props.img}></img>
         <span>{props.text}</span>
       </div>
     </div>

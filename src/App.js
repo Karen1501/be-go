@@ -3,7 +3,7 @@ import Navigation from "./Components/NavBar/index.js";
 import CentralCard from "./Components/CentralCard/index.js";
 import StatusToggler from "./Components/StatusToggler/index";
 
-import { Container, Row, Col, Navbar } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 function App() {
   return (

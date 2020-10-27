@@ -1,15 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100&display=swap");
+
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin-bottom: 30px;
+  box-sizing: border-box;
+  height: 22px;
+  width: 106px;
+  border: 1px solid #1c232a;
+  border-radius: 8px;
+  background-color: #10161c;
+  box-shadow: inset 2px 2px 4px 0 rgb(34, 34, 34);
   div {
     text-align: center;
   }
-  p {
-    color: rgb(102, 100, 100));
-    font-size: 12px;
+
+  .title {
+    height: 19px;
+    width: 67px;
+    color: #797b7c;
+    font-family: Commissioner;
+    font-size: 10px;
+    font-weight: 500;
     text-align: center;
+    margin-top: -33px;
   }
   img {
     margin-right: 10px;
