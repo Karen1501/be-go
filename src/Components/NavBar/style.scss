@@ -1,0 +1,29 @@
+.navbar {
+  margin-top: 40px;
+  .navbar-toggler {
+    background-image: url("../../assets/noun_menu_1166841.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+  }
+}
+
+.avatar-wrapper {
+  background: #333;
+  height: 50px;
+  width: 120px;
+  border-radius: 50px;
+  padding: 5px;
+  display: flex;
+  box-shadow: 3px 3px 3px #555 insert, -3px -3px 3px #555 inset;
+  align-items: center;
+  .user-data {
+    font-size: 12px;
+    margin-left: 10px;
+    .cash {
+      span {
+        color: yellow;
+      }
+    }
+  }
+}

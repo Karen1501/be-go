@@ -1,0 +1,41 @@
+.toggler-wrapper {
+  width: 120px;
+  height: 50px;
+  background-color: #333;
+  border-radius: 50px;
+  box-shadow: 3px 3px 3px #222 inset -3px -3px 3px #555 inset;
+  position: relative;
+  .toggler-indicator {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: yellow;
+    background-image: url("../../assets/sun.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    transition: left 0.5s ease;
+    z-index: 9999;
+  }
+  &:after {
+    content: "ONLINE";
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    display: block;
+  }
+  &.offline {
+    .toggler-indicator {
+      left: calc(100% -50px);
+      background-color: darkred;
+    }
+    &:after {
+      content: "OFFLINE";
+      right: unset;
+      left: 10px;
+    }
+  }
+}

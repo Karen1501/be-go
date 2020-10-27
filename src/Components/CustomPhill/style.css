@@ -1,0 +1,27 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.wrapper div {
+  text-align: center;
+}
+
+.wrapper p {
+  color: #636161;
+  font-size: 12px;
+  text-align: center;
+}
+
+.wrapper img {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
